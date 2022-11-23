@@ -49,6 +49,14 @@ nav {
   padding-right: 24px;
   font-size: 18px;
 }
+.link_nav a {
+  text-decoration: none;
+  color: #fb7c40;
+  font-weight: 500;
+}
+.link_nav a:hover {
+  color: #fff;
+}
 .logo_nav img {
   height: 100px;
 }
@@ -78,7 +86,7 @@ nav {
   margin-right: 40px;
 }
 .aboutus {
-  width: 50%;
+  width: 60%;
 }
 .aboutus h1 {
   font-size: 40px;
