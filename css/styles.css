@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@300;400;500;600&display=swap");
+
+:root {
+  --bg1: #151828;
+  --bg2: #1b1f34;
+  --body: #959dcc;
+  --brand: #ffab76;
+  --white: #fff;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Inter", "Dela Gothic One", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+}
+body {
+    font-family: 'Inter';
+}
+.container {
+    padding: 24px 32px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dela Gothic One';
+    font-weight: 400;
+}
