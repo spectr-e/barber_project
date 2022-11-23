@@ -4,7 +4,7 @@
   --bg1: #151828;
   --bg2: #1b1f34;
   --body: #959dcc;
-  --brand: #f1611c;
+  --brand: #fb7c40;
   --white: #fff;
 }
 * {
@@ -32,16 +32,58 @@ h6 {
 .container {
   padding: 24px 32px;
 }
+
+
 /* ...........header section............ */
+header {
+  height: 100vh;
+}
+nav {
+  /* float: left; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.link_nav span {
+  padding-right: 24px;
+  font-size: 18px;
+}
+.logo_nav img {
+  height: 100px;
+}
+.title {
+  padding-top: 15%;
+  margin-right: 50%;
+}
+.title h1 {
+  font-size: 40px;
+}
 .title h1 span {
   font-family: "Dela Gothic One";
-  color: #f1611c;
+  color: #fb7c40;
 }
-/* .........navigation.............. */
+.title p {
+  font-size: 20px;
+}
 
-.logo_nav {
-  /*For a later time*/
+
+/* ....................about section..................... */
+.row {
+  display: flex;
 }
-.link_nav {
+
+.row img {
+  width: 350px;
+  margin-right: 40px;
+}
+.aboutus {
+  width: 50%;
+}
+.aboutus h1 {
+  font-size: 40px;
+}
+.aboutus p {
+  font-size: 20px;
   
 }
