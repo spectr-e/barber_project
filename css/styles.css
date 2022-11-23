@@ -4,7 +4,7 @@
   --bg1: #151828;
   --bg2: #1b1f34;
   --body: #959dcc;
-  --brand: #ffab76;
+  --brand: #f1611c;
   --white: #fff;
 }
 * {
@@ -14,11 +14,17 @@
 }
 body {
     font-family: 'Inter';
-}
-.container {
-    padding: 24px 32px;
+    line-height: 1.6;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Dela Gothic One';
     font-weight: 400;
+}
+.container {
+    padding: 24px 32px;
+}
+/* ...........header section............ */
+.title h1 span {
+    font-family: 'Dela Gothic One';
+    color: #f1611c;
 }
