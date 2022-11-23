@@ -66,13 +66,19 @@ nav {
 }
 .title h1 {
   font-size: 40px;
+  line-height: 1.5;
 }
-.title h1 span {
+.brand {
   font-family: "Dela Gothic One";
   color: #fb7c40;
 }
+.location {
+  font-family: "Dela Gothic One";
+  font-size: 30px;
+}
 .title p {
   font-size: 20px;
+  margin-top: 16px;
 }
 
 
