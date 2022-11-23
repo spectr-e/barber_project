@@ -51,11 +51,11 @@ nav {
 }
 .link_nav a {
   text-decoration: none;
-  color: #fb7c40;
-  font-weight: 500;
+  color: #fff;
+  font-weight: 600;
 }
 .link_nav a:hover {
-  color: #fff;
+  color: #fb7c40;
 }
 .logo_nav img {
   height: 100px;
@@ -77,6 +77,11 @@ nav {
 
 
 /* ....................about section..................... */
+#about {
+  padding-top: 40px;
+  background-color: #151828;
+  height: 100vh;
+}
 .row {
   display: flex;
 }
